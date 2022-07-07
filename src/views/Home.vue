@@ -11,7 +11,7 @@ const step = ref(0);
         <Typing
             v-if="step >= 0"
             @done="step++"
-            text="My Portfolio"
+            text="hi"
             class="mb-2 block text-2xl sm:text-3xl lg:text-4xl"
         />
         <Typing v-if="step >= 1" @done="step++" text="Hello!" :speed="60" />
